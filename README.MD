@@ -6,13 +6,13 @@
 
 <p>The files included are:</p> 
 
-<h3>infrastructure.yml - This file contains infrastructure setup for aws which includes vpc, private and public subnet, network gateway.</h3>
-<h3>infrastructure.json - This file contains parameter key and parameter values.</h3>
-<h3>servers.yml - Setup of compute i.e launch of ec2 instance and its dependency.</h3>
-<h3>servers.json - For servers parameter keys and parameter values.</h3>
+<h4>infrastructure.yml - This file contains infrastructure setup for aws which includes vpc, private and public subnet, network gateway.</h4>
+<h4>infrastructure.json - This file contains parameter key and parameter values.</h4>
+<h4>servers.yml - Setup of compute i.e launch of ec2 instance and its dependency.</h4>
+<h4>servers.json - For servers parameter keys and parameter values.</h4>
 
-<h3>create.sh - Script for creating cloudformation stacks</h3>
-<h3>update.sh - Script for updating cloudformation stacks</h3>
+<h4>create.sh - Script for creating cloudformation stacks</h4>
+<h4>update.sh - Script for updating cloudformation stacks</h4>
 
 ### Aws architecture Diagram
 ![Alt text](/architecture_diagram.jpeg?raw=true "Aws architecture diagram")
